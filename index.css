@@ -1,0 +1,24 @@
+.main{
+  margin:2%;
+  border:1px solid black;
+  display:flex;
+  flex-direction:row;
+}
+.left img{
+  width::50%;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 90%;
+}
+.right{
+  justify-content: center;
+  margin:2%;
+  border:1px solid blue;
+  margin-left: auto;
+  width:50%;
+  padding:2%;
+}
+.table1{
+  overflow-x: auto;
+}

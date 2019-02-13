@@ -1,0 +1,68 @@
+.parent{
+  margin:2%;
+  border:1px solid black;
+  display:flex;
+  flex-direction:row;
+}
+.leftchild{
+  justify-content: center;
+  margin:2%;
+  border:1px solid blue;
+  padding:2%;
+  width:50%;
+}
+.leftchild img{
+  width:50%;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 90%;
+}
+.rightchild{
+  justify-content: center;
+  margin:2%;
+  border:1px solid blue;
+  padding:2%;
+  width:50%;
+  margin-left: auto
+}
+.table1{
+  overflow-x: auto;
+}
+@media only screen and (min-width:0px) and (max-width:480px)
+{
+  .parent{
+    border:1px solid BLACK;
+    display:flex;
+    flex-direction:column;
+    background-color: #85FAF6;
+
+  }
+  div{
+    word-wrap: break-word;
+  }
+  .leftchild{
+    justify-content: center;
+    margin:20%,2%,2%,2%;
+    border:1px solid blue;
+    padding:2%;
+    width:90%;
+  }
+  .leftchild img{
+    width:50%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+  }
+  .rightchild{
+    justify-content: center;
+    margin:2%;
+    border:1px solid blue;
+    padding:2%;
+    width:90%;
+  }
+  .table1{
+    overflow-x: auto;
+  }
+}
