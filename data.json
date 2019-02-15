@@ -1,0 +1,44 @@
+{
+  "basic":{
+    "image":"tarun.1.png",
+    "name":"charanreddy",
+    "email":"tarunreddy137217534@gmail.com",
+    "number":"9492182010",
+    "Address":"mandapeta."
+  },
+  "career":{
+    "info":"To pursue a challenging career to be a part of progressive organisation"
+
+},
+  "education":[
+  {
+    "institute":"Pragati college",
+    "degree":"Btech",
+    "passout":"2021"
+  },
+  {
+    "institute":"sasi college",
+    "degree":"Intermediate",
+    "passout":"2017"
+  },
+  {
+    "institute":"sasi school",
+    "degree":"S.S.C",
+    "passout":"2015"
+  }
+],
+ "skills":[
+ {
+   "title":"Programming languages",
+   "content":["C,javascript,java,ruby"]
+ },
+ {
+   "title":"Operating systems",
+   "content":["windows,linux,ubuntu"]
+ },
+ {
+   "title":"Databases",
+   "content":["mysql,oracle,indexedDB,TinyDB"]
+ }
+]
+}
